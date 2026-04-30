@@ -10262,7 +10262,7 @@
 		)
 		(uuid "20d0b353-0a61-45b1-b6ff-f75eb615228d")
 	)
-	(label "M_A1"
+	(label "M_A2"
 		(at 251.46 76.2 0)
 		(effects
 			(font
@@ -10642,7 +10642,7 @@
 		)
 		(uuid "ed8e5514-1a58-4510-b61f-bb0bdda9d217")
 	)
-	(label "M_A2"
+	(label "M_A1"
 		(at 251.46 78.74 0)
 		(effects
 			(font
