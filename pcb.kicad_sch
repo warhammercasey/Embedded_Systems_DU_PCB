@@ -10482,7 +10482,7 @@
 		)
 		(uuid "82140150-ca39-4b66-9d62-8d0814fc3669")
 	)
-	(label "ENC_B"
+	(label "ENC_A"
 		(at 204.47 109.22 0)
 		(effects
 			(font
@@ -10532,7 +10532,7 @@
 		)
 		(uuid "a141b145-d013-45e5-879c-f33b8dfcb4ef")
 	)
-	(label "ENC_A"
+	(label "ENC_B"
 		(at 204.47 106.68 0)
 		(effects
 			(font
