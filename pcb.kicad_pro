@@ -60,64 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|92667500|105450000|5e306030-9ea9-4914-98bd-56c6352dbaf8|f09234fb-3613-459c-b0cf-38580283ee6e",
-          ""
-        ],
-        [
-          "hole_clearance|92667500|105450000|ba088e54-23c3-49d5-a1fd-5d2dc89c2397|f09234fb-3613-459c-b0cf-38580283ee6e",
-          ""
-        ],
-        [
-          "hole_clearance|92667500|111550000|24099e08-f393-4bd7-86d1-84789098f8f4|3295b86f-935d-4403-95cd-9cb171a81bfe",
-          ""
-        ],
-        [
-          "hole_clearance|92667500|111550000|2ca89b4e-1c76-4bda-9fb7-c9fb1709da5c|3295b86f-935d-4403-95cd-9cb171a81bfe",
-          ""
-        ],
-        [
-          "starved_thermal|62825000|113250000|33adcd6f-1203-49c5-9942-a8100ef40413|c188da16-43ef-454e-9d47-c2975e3cfbd3|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|64750000|105825000|0bd1af28-6833-4eec-80cf-8501169a8fc0|ec96a08c-6020-4eba-89b3-4fa93ac8a38a|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|65000000|127050000|33adcd6f-1203-49c5-9942-a8100ef40413|fb1ec809-1752-47a8-869c-69f3b1a5131d|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|65250000|117175000|33adcd6f-1203-49c5-9942-a8100ef40413|7462de8f-adf2-4d43-aae7-ec6eaffc57ce|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|74175000|108250000|33adcd6f-1203-49c5-9942-a8100ef40413|981e16da-750c-40e7-bca9-3ba4cf62b129|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|92167500|105300000|33adcd6f-1203-49c5-9942-a8100ef40413|5e306030-9ea9-4914-98bd-56c6352dbaf8|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|92167500|105300000|33adcd6f-1203-49c5-9942-a8100ef40413|ba088e54-23c3-49d5-a1fd-5d2dc89c2397|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|92807500|103430000|33adcd6f-1203-49c5-9942-a8100ef40413|7927543c-31cd-42fd-9c1d-ad77ae5df31c|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|96994493|103430000|33adcd6f-1203-49c5-9942-a8100ef40413|76c7288f-8529-43b5-a449-ee8d00d41b65|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|97250000|125550000|33adcd6f-1203-49c5-9942-a8100ef40413|135cac8c-4598-455e-95a3-8d251c0e2719|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -304,7 +247,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -326,19 +269,19 @@
   "erc": {
     "erc_exclusions": [
       [
-        "power_pin_not_driven|1600200|203200|cdc3ada3-5f76-4248-bb95-7dfb4853d3b5|00000000-0000-0000-0000-000000000000|/dbed16b2-c7a0-48b2-81be-67acf183f007|/dbed16b2-c7a0-48b2-81be-67acf183f007|",
+        "power_pin_not_driven|1600200|203200|cdc3ada3-5f76-4248-bb95-7dfb4853d3b5|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
-        "power_pin_not_driven|457200|635000|c0ae2165-b0b8-4051-9d49-fc799e35296a|00000000-0000-0000-0000-000000000000|/dbed16b2-c7a0-48b2-81be-67acf183f007|/dbed16b2-c7a0-48b2-81be-67acf183f007|",
+        "power_pin_not_driven|457200|635000|c0ae2165-b0b8-4051-9d49-fc799e35296a|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
-        "power_pin_not_driven|647700|1333500|4ca7e3ea-0958-4718-b2fb-eea3db17daf2|00000000-0000-0000-0000-000000000000|/dbed16b2-c7a0-48b2-81be-67acf183f007|/dbed16b2-c7a0-48b2-81be-67acf183f007|",
+        "power_pin_not_driven|647700|1333500|4ca7e3ea-0958-4718-b2fb-eea3db17daf2|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
-        "power_pin_not_driven|647700|1485900|bb326626-7a66-4704-9353-e54d4d7f9513|00000000-0000-0000-0000-000000000000|/dbed16b2-c7a0-48b2-81be-67acf183f007|/dbed16b2-c7a0-48b2-81be-67acf183f007|",
+        "power_pin_not_driven|647700|1485900|bb326626-7a66-4704-9353-e54d4d7f9513|00000000-0000-0000-0000-000000000000|||",
         ""
       ]
     ],
@@ -725,17 +668,17 @@
     "top_level_sheets": [
       {
         "filename": "pcb.kicad_sch",
-        "name": "Root",
-        "uuid": "dbed16b2-c7a0-48b2-81be-67acf183f007"
+        "name": "",
+        "uuid": "0571efe5-3220-4f9d-9c04-4932fee67b27"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-5,#PWR1-18,#PWR21-69,S3-4,C1-4,C6-9,C13-26,F1,R1-4,R6-10,R17,J1-9,SW2,U1-3,U5-6,Y3",
     "variants": []
   },
   "sheets": [
     [
-      "dbed16b2-c7a0-48b2-81be-67acf183f007",
-      "Root"
+      "0571efe5-3220-4f9d-9c04-4932fee67b27",
+      ""
     ]
   ],
   "text_variables": {},
