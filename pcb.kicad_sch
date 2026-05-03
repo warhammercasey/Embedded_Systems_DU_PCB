@@ -10320,7 +10320,7 @@
 		)
 		(uuid "22fd0869-032a-464f-8b3c-61844714864d")
 	)
-	(label "MD_AO2"
+	(label "MD_AO1"
 		(at 236.22 26.67 180)
 		(effects
 			(font
@@ -10790,7 +10790,7 @@
 		)
 		(uuid "da42cc70-4fd3-48df-aa08-6e95bc4d4e6d")
 	)
-	(label "MD_AO1"
+	(label "MD_AO2"
 		(at 236.22 24.13 180)
 		(effects
 			(font
@@ -18175,85 +18175,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 227.33 53.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "807f0401-fb12-4ff9-bc4c-d67803bfe331")
-		(property "Reference" "#PWR021"
-			(at 231.14 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 223.52 53.3399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 227.33 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18527037-6136-40c1-9444-053e26eaa58c")
-		)
-		(instances
-			(project "pcb"
-				(path "/0571efe5-3220-4f9d-9c04-4932fee67b27"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 34.29 82.55 0)
 		(unit 1)
@@ -21552,6 +21473,84 @@
 			(project "pcb"
 				(path "/0571efe5-3220-4f9d-9c04-4932fee67b27"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 227.33 53.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbdda59f-3240-4fdb-a21a-12e221f949ef")
+		(property "Reference" "#PWR070"
+			(at 231.14 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 222.758 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 227.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1bdceb8-79e2-48d3-a9b4-8dd339b4502f")
+		)
+		(instances
+			(project "pcb"
+				(path "/0571efe5-3220-4f9d-9c04-4932fee67b27"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)

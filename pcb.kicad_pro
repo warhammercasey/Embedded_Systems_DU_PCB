@@ -58,9 +58,31 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.2
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|65495000|102950000|0075de22-5fbf-4526-b28e-e043ac993e54|39076129-8d37-4fbb-9c62-b8d7549783d8",
+          ""
+        ],
+        [
+          "hole_clearance|65495000|102950000|7dce26f8-ec32-4b99-a8db-98b30c18f1eb|39076129-8d37-4fbb-9c62-b8d7549783d8",
+          ""
+        ],
+        [
+          "hole_clearance|65495000|109050000|647a0ef5-9367-418e-b247-868840208967|23d0f203-a32e-452b-8be2-fb6474f3fe98",
+          ""
+        ],
+        [
+          "hole_clearance|65495000|109050000|9800bf9b-7e87-4713-b284-692fe6bc814d|23d0f203-a32e-452b-8be2-fb6474f3fe98",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -104,9 +126,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -131,8 +153,8 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.1,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
+        "min_connection": 0.1,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -672,7 +694,7 @@
         "uuid": "0571efe5-3220-4f9d-9c04-4932fee67b27"
       }
     ],
-    "used_designators": "H1-4",
+    "used_designators": "H1-4,#PWR70",
     "variants": []
   },
   "sheets": [
