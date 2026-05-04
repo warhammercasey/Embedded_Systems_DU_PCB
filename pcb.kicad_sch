@@ -7399,6 +7399,12 @@
 		(uuid "66f23f7c-eda4-433c-b1be-1bb1714881f0")
 	)
 	(junction
+		(at 25.4 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a62ff48-1c06-476b-bac2-aadadd9fd3d1")
+	)
+	(junction
 		(at 96.52 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8152,6 +8158,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 105.41) (xy 31.75 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336e4c23-70d0-4be6-b144-ef0be5bd2c8d")
+	)
+	(wire
+		(pts
 			(xy 109.22 82.55) (xy 111.76 82.55)
 		)
 		(stroke
@@ -8552,6 +8568,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 104.14) (xy 38.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fb086c-5587-441b-a3fc-857e30496f82")
+	)
+	(wire
+		(pts
 			(xy 46.99 144.78) (xy 48.26 144.78)
 		)
 		(stroke
@@ -8799,6 +8825,16 @@
 			(type default)
 		)
 		(uuid "6b1ec753-55e9-4c01-a104-df0e26ef8404")
+	)
+	(wire
+		(pts
+			(xy 25.4 104.14) (xy 25.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4d16af-dc52-446a-bccb-d5aa8576d10d")
 	)
 	(wire
 		(pts
@@ -9212,6 +9248,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 110.49) (xy 31.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4c4558-99a8-4162-b593-352d40e11feb")
+	)
+	(wire
+		(pts
 			(xy 226.06 96.52) (xy 232.41 96.52)
 		)
 		(stroke
@@ -9319,6 +9365,16 @@
 			(type default)
 		)
 		(uuid "9dc421cd-fc71-4f47-9c02-256116ecdebf")
+	)
+	(wire
+		(pts
+			(xy 25.4 110.49) (xy 25.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df494b5-90e5-48ce-987c-f6f6f058b45f")
 	)
 	(wire
 		(pts
@@ -9549,6 +9605,16 @@
 			(type default)
 		)
 		(uuid "b3b427ab-5448-4777-bef9-52136283048c")
+	)
+	(wire
+		(pts
+			(xy 25.4 104.14) (xy 25.4 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ad1166-c37f-4362-8ac1-91cd41239d59")
 	)
 	(wire
 		(pts
@@ -10002,6 +10068,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 104.14) (xy 25.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58ec927-44e4-4b65-a7d5-0983c15b8bd6")
+	)
+	(wire
+		(pts
 			(xy 176.53 20.32) (xy 179.07 20.32)
 		)
 		(stroke
@@ -10192,6 +10268,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 110.49) (xy 38.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc760b81-3f30-48ce-87d1-31ec004dd747")
+	)
+	(wire
+		(pts
 			(xy 186.69 54.61) (xy 187.96 54.61)
 		)
 		(stroke
@@ -10239,6 +10325,16 @@
 			(type default)
 		)
 		(uuid "ffc819d7-d8d7-4a75-98af-5bd9b4710b07")
+	)
+	(label "MT_SCL"
+		(at 31.75 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "094f7821-17c1-4888-b94f-7acc8af96cc2")
 	)
 	(label "ENC_A"
 		(at 222.25 119.38 180)
@@ -10370,6 +10466,16 @@
 		)
 		(uuid "32edf695-f1b8-411d-adcd-b5d4690b13c4")
 	)
+	(label "ESD_D+"
+		(at 38.1 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34937612-024d-4b8a-b02f-0515f42f831b")
+	)
 	(label "ESP_RX"
 		(at 111.76 72.39 0)
 		(effects
@@ -10409,6 +10515,16 @@
 			(justify left bottom)
 		)
 		(uuid "41c7217b-3baf-435c-a75d-d3fda1e9551b")
+	)
+	(label "MT_SDA"
+		(at 25.4 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41ca7078-2b16-4e3d-87dd-d344fcea13b7")
 	)
 	(label "USB_D-"
 		(at 52.07 160.02 0)
@@ -10869,6 +10985,140 @@
 			(justify left bottom)
 		)
 		(uuid "ff2515e2-9107-48ec-8343-5a7d1132ffa2")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 31.75 107.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "017b0d4e-d660-4bd7-8dc8-cd1e7f931bfc")
+		(property "Reference" "R12"
+			(at 28.194 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 28.448 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 31.75 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 31.75 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW08051K00FEEA?qs=4CveT0Ftx0oXPRWW%252BDtRJw%3D%3D"
+			(at 31.75 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr #" "TNPW08051K00FEEA"
+			(at 31.75 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.13"
+			(at 31.75 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 31.75 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 31.75 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9a205c0-a9a3-4d2d-a328-acaade1c0fd2")
+		)
+		(pin "2"
+			(uuid "73cd416c-8a1e-4bd5-a3ec-75f7a0da75ee")
+		)
+		(instances
+			(project "pcb"
+				(path "/0571efe5-3220-4f9d-9c04-4932fee67b27"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11341,6 +11591,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 25.4 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0688e0da-ef81-4e0a-b8dc-4946f43b6a0d")
+		(property "Reference" "#PWR019"
+			(at 25.4 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 25.4 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 25.4 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "091de821-a379-436d-b9b1-569b8ad7d7f5")
+		)
+		(instances
+			(project "pcb"
+				(path "/0571efe5-3220-4f9d-9c04-4932fee67b27"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 144.78 142.24 0)
 		(unit 1)
@@ -11567,6 +11895,140 @@
 			(project "pcb"
 				(path "/0571efe5-3220-4f9d-9c04-4932fee67b27"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 25.4 107.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b1ca026-3b23-419c-9758-77ce395c96e7")
+		(property "Reference" "R11"
+			(at 21.844 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 22.098 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 25.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 25.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW08051K00FEEA?qs=4CveT0Ftx0oXPRWW%252BDtRJw%3D%3D"
+			(at 25.4 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr #" "TNPW08051K00FEEA"
+			(at 25.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.13"
+			(at 25.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 25.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 25.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "740f8dc4-716a-49d5-990f-96ab6b36a144")
+		)
+		(pin "2"
+			(uuid "28295a93-991b-4e01-bbab-db2309b10e06")
+		)
+		(instances
+			(project "pcb"
+				(path "/0571efe5-3220-4f9d-9c04-4932fee67b27"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -14646,6 +15108,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 38.1 107.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42a3e66b-eb81-4ce5-b8b3-3fd071b1b3a1")
+		(property "Reference" "R13"
+			(at 34.544 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 34.798 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 38.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 38.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW08051K00FEEA?qs=4CveT0Ftx0oXPRWW%252BDtRJw%3D%3D"
+			(at 38.1 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr #" "TNPW08051K00FEEA"
+			(at 38.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.13"
+			(at 38.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 38.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 38.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eefaf959-36e2-4888-a9ac-0cd1e08efd78")
+		)
+		(pin "2"
+			(uuid "872604df-7de6-40c9-ac7b-a6a9c6619e12")
+		)
+		(instances
+			(project "pcb"
+				(path "/0571efe5-3220-4f9d-9c04-4932fee67b27"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:LD1117S50TR_SOT223")
 		(at 162.56 110.49 0)
 		(unit 1)
@@ -16488,6 +17084,84 @@
 			(project "pcb"
 				(path "/0571efe5-3220-4f9d-9c04-4932fee67b27"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 38.1 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a7a3cdc-2cd2-4a5b-956c-afd917754d29")
+		(property "Reference" "#PWR071"
+			(at 38.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vusb"
+			(at 38.1 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 38.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "584e2b86-ec70-4114-80ef-a4267957313c")
+		)
+		(instances
+			(project "pcb"
+				(path "/0571efe5-3220-4f9d-9c04-4932fee67b27"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
